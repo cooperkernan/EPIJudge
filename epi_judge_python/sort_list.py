@@ -3,7 +3,9 @@ from test_framework import generic_test
 
 def stable_sort_list(L):
     # TODO - you fill in here.
-    return None
+#    list1 = [int(x) for x in L]
+#    print(list1)
+    return(sorted(L, key=int))
 
 
 if __name__ == '__main__':

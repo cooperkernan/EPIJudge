@@ -1,10 +1,12 @@
 from test_framework import generic_test
 
-
 def fibonacci(n):
-    # TODO - you fill in here.
-    return -1
-
+    if n == 0:
+        return(0)
+    elif n == 1:
+        return(1)
+    else:
+        return(fibonacci(n-1)+fibonacci(n-2))
 
 if __name__ == '__main__':
     exit(
